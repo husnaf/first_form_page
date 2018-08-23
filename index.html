@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sign up</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru|Source+Sans+Pro" rel="stylesheet">
+</head>
+<body>
+    <h1>Welcome to Wave</h1>
+    <form action="#">
+        <fieldset>
+            <legend>Sign Up Information</legend>
+           <div class="name"> 
+             <label for="firstname">First name:</label><br>
+             <input type="text" name="firstname" required><br>
+             Middle name:<br>
+             <input type="text" name="middlename"><br>
+             Last name:<br>
+             <input type="text" name="lastname" required><br>
+           </div>
+           <div class="user_pass">
+             <label for="user"><b>Username:</b></label><br>
+             <input type="text" name="username" required> <br>
+             <label for="pass"><b>Password:</b></label><br>
+             <input type="password" name="password" minlength="8" placeholder="8 characters minimum" required>
+           </div>
+           <div class="gender" required>
+             <input type="radio" name="gender" value="male"> Male <br>
+             <input type="radio" name="gender" value="female"> Female <br>
+             <input type="radio" name="gender" value="other"> Other <br>
+           </div>
+       </fieldset>
+
+       <div class="submit"><br>
+            <input type="submit" value="Sign Up"> 
+       </div>  
+    </form>
+    
+</body>
+</html>

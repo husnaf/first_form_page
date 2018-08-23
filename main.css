@@ -1,0 +1,36 @@
+body {
+    font-family:'Source Sans Pro', sans-serif;
+    background-color: white;
+    background-image:url("background.jpg");
+    background-repeat:no-repeat;
+    background-size: 100%; 
+}
+h1 {
+   text-align:center;
+   font-family:'Kosugi Maru', sans-serif;
+}
+h1:hover{
+    opacity:0.5;
+}
+.name, .user_pass, .gender {
+    padding:10px;
+    margin:0 auto;
+}
+fieldset{
+    width:fit-content;
+    margin:0 auto;
+    border:solid;
+    background-color: white;
+    padding:20px;
+}
+.submit{
+    text-align: center
+}
+.submit:hover{
+    opacity:1;
+}
+legend {
+    text-transform:uppercase;
+    text-align:center;
+    font-family: 'Kosugi Maru', sans-serif;
+}
